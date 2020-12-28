@@ -1,0 +1,68 @@
+1.hoisting only occurs with var and function keyword so try use let or const keyword instead of var.
+
+2.function expression checks at runtime while function declaration at parse or compile time.
+
+3.An important difference between JavaScript and other languages like Java is that in JavaScript, blocks do not have scope; only functions have a scope. So if a variable is defined using var in a compound statement (for example inside an if control structure), it will be visible to the entire function. However, starting with ECMAScript 2015, let and const declarations allow you to create block-scoped variables. 
+block scope is like in function while function scope is like in if else
+
+4.this is not lexically scope but arrow function in es6 will bind this to lexical
+
+5.the only difference between call and apply is that in apply use array as args.
+
+6.null is a object and primitive types are immutable.
+
+7.array function are lexical scoped whereas regular function are dynamically scoped.
+
+8. only function has an access to prototype not object.
+
+9.factory function is a function that create object for us.
+
+10.object.create() do prototyple inheritance.
+
+11.any function invoked with new keyword is constructor function also constructor function should be initilaised with captial lettr.
+
+12.function can only access to prototype not object.
+
+13.in java c++ we copy class when uses inheritance but in js we only link class thus memory sufficient.
+
+14.overriding means when same function acts differently whiler overloading means adding extra features to a function.
+
+15.referential transparency means is there a effect on input ouput on changing it.
+
+16.idempotence is a function that returns or does what we expect it to do i.e calling the same function and always returning the same result.
+
+17.high order function(hof) a function that returns a function.
+
+18.closures   
+
+Questions:
+1.difference between let and var and const ?
+=a)var is there in Js from the begining while let was introduced in Es6
+ b)let and const has block scope that it will erase as soon as block completes whereas var has function block i.e globe
+ c)variable define with var gets hoisted top of the function whereas let is not hoisted.
+ d)const allows you to declare variables whose values are never intended to change. 
+2.difference between == and === ?
+ a) == means compares value only because it will converts one type to another whereas === compares value and type
+
+3.difference between let and const ?
+=a)var and let are mutable that is we can change its value and type while const are immutable
+
+3.difference between null and undefined ?
+=a)null typeof is a object whereas undefined is undefined.
+ b)null is empty whereas undefined is not defined.
+
+4.what is prototypal inheritance ?
+=every object has property where you can add method and properties to it when you create other object from its parent.
+
+5.what is promises and why we use it ?
+=
+
+6.what is closure ?
+=
+
+7.difference between imperative and declarative ?
+=imperative code tells the machine what to do and how to do it while declarative code tells what to do and what should happen.
+ humans are declarative
+ for loop is imperative as well as machine code as well as jquery
+ react is declarative.
+
